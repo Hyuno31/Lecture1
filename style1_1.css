@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 5px;
+    font-family: arial,sans-serif;
+    box-sizing: border-box;
+}
+.box-1{
+   
+    width: 400px;
+    background-color: violet;
+    font-size:50px;
+    padding: 50px 50px 50px 50px;
+    margin-top: 50px;
+    border: 10px dotted yellow;
+    text-align: center;
+
+   
+   
+}
+ 
+nav ul li {
+    display:inline
+}
+nav ul {
+    list-style: none;
+    text-align: center;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color:aliceblue;
+    transition: background-color 0.3s, color 3.0s;
+}
+header {
+   
+    background-color: #333;
+    font-size:18px;
+    padding: 20px 50px 10px 60px;
+    text-align: center;
+}
+nav {
+    background-color: #555;
+   
+}
+main section{
+    margin-top: 11px;
+    background-color: #f9f9f9;
+    border: 10px ;
+    padding: 20px 5px 20px 20px
+}
+ 
+main article {
+    margin-top: 11px;
+    background-color: #f9f9f9;
+    border: 10px ;
+    padding: 20px 5px 20px 20px
+}
+ main aside   {
+    margin-top: 11px;
+    background-color: #f9f9f9;
+    border: 10px ;
+    padding: 20px 5px 20px 20px
+}
+main aside ul {
+   
+    padding: 10px 20px 10px 33px;
+}
+main footer {
+    background-color: #333;
+    font-size:18px;
+    padding: 30px 30px 30px 30px;
+    text-align: center;
+}
+
+
+.flex-container-2 {
+    width: 1000px;
+    height: 800px;
+    border: 5px solid black;
+    padding: 0px 20px 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: row;
+}
+
+body, html {
+    height: 100%;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
